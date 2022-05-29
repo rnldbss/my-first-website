@@ -457,7 +457,11 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 5rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
+}
+
+.last-container {
+  margin-bottom: 10rem;
 }
 
 .title {
@@ -584,7 +588,7 @@ figcaption {
   text-align: center;
   letter-spacing: 1.5rem;
   color: #c6a347;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   border-top: 0.1rem solid #c6a347;
 }
 
@@ -634,7 +638,6 @@ figcaption {
   justify-content: center;
   color: #fff;
   height: 17rem;
-
   background-color: #000;
 }
 
