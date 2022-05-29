@@ -191,6 +191,7 @@ nav ul a {
     top: 45%;
     left: 50%;
     text-align: center;
+    font-family: "Playfar";
   }
 }
 
@@ -203,7 +204,6 @@ nav ul a {
 
 @media screen and (max-width: 800px) {
   .header-text {
-    font-family: "Playfar";
     font-size: 2rem;
     margin: 3rem 11rem;
     text-align: center;
