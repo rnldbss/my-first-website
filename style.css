@@ -36,7 +36,7 @@
   font-family: "Montserrat", sans-serif;
   color: #fff;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 800px) {
   .main_h {
     padding-top: 25px;
   }
@@ -65,7 +65,7 @@
   margin-top: -7px;
   line-height: 1;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 800px) {
   .logo {
     float: none;
   }
@@ -79,7 +79,7 @@ nav {
   float: right;
   width: 60%;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 800px) {
   nav {
     width: 100%;
   }
@@ -90,7 +90,7 @@ nav ul {
   text-align: right;
   float: right;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 800px) {
   nav ul {
     padding-top: 10px;
     margin-bottom: 22px;
@@ -104,7 +104,7 @@ nav ul li {
   margin-left: 35px;
   line-height: 1.5;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 800px) {
   nav ul li {
     width: 100%;
     padding: 7px 0;
@@ -130,7 +130,7 @@ nav ul a {
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 800px) {
   .mobile-toggle {
     display: block;
   }
