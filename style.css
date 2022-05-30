@@ -501,7 +501,7 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 2rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .last-container {
@@ -755,6 +755,7 @@ figcaption {
   font-size: 1rem;
   display: flex;
   width: 80%;
+  margin-top: 1.5rem;
 }
 
 .mapouter {
