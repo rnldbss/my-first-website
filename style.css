@@ -791,7 +791,8 @@ figcaption {
 @media screen and (max-width: 800px) {
   .fabio-bio {
     position: absolute;
-    top: 20rem;
+    top: 16rem;
+    left: 0.5rem;
   }
 }
 
@@ -806,7 +807,8 @@ figcaption {
 
 @media screen and (max-width: 800px) {
   .bio-text {
-    width: 80%;
+    width: 90%;
+    margin: 0;
   }
 }
 
@@ -822,7 +824,7 @@ figcaption {
 
 @media screen and (max-width: 800px) {
   .bio-photo {
-    width: 100vw;
+    width: 105vw;
     position: absolute;
     top: 0;
     left: 0;
