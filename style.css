@@ -205,7 +205,7 @@ nav ul a {
 @media screen and (max-width: 800px) {
   .header-text {
     font-size: 2rem;
-    margin: 3rem 11rem;
+    margin: 3rem 8rem;
     text-align: center;
     line-height: 4rem;
     letter-spacing: 0.8rem;
