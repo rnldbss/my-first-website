@@ -788,6 +788,13 @@ figcaption {
   line-height: 1.7rem;
 }
 
+@media screen and (max-width: 800px) {
+  .fabio-bio {
+    position: absolute;
+    top: 20rem;
+  }
+}
+
 .bio-text {
   font-family: "Montserrat";
   margin-top: 2rem;
@@ -797,13 +804,31 @@ figcaption {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+  .bio-text {
+    width: 80%;
+  }
+}
+
 .bio-photo {
   width: 32%;
+
   position: absolute;
   top: 5rem;
   right: 10rem;
   animation: fadeIn 4s ease-out;
   transition: all;
+}
+
+@media screen and (max-width: 800px) {
+  .bio-photo {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    clip-path: polygon(-120% 0, 100% 0%, 100% 90%, 100% 60%);
+  }
 }
 
 .br {
@@ -818,6 +843,11 @@ figcaption {
 }
 .test1 {
   margin-top: -35px;
+}
+@media screen and (max-width: 800px) {
+  .test1 {
+    margin-top: -28px;
+  }
 }
 
 .bio-tittle {
