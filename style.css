@@ -175,6 +175,7 @@ nav ul a {
 }
 
 .header-text {
+  font-family: "Cinzel";
   text-transform: uppercase;
   letter-spacing: 1.2rem;
   margin-bottom: 3rem;
@@ -310,7 +311,13 @@ nav ul a {
 
 /* GALLERY */
 .gallery {
-  height: 73rem;
+  height: 55rem;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery {
+    height: 80rem;
+  }
 }
 
 .gallery-tittle-box {
