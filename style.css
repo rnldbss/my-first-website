@@ -268,6 +268,10 @@ nav ul a {
   background-color: #c6a347;
 }
 
+.card-line {
+  margin-top: 15%;
+}
+
 .about-us {
   height: 100vh;
   position: relative;
@@ -501,7 +505,7 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 8%;
 }
 
 .last-container {
