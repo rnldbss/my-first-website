@@ -62,7 +62,7 @@
   text-transform: uppercase;
   float: left;
   display: block;
-  margin-top: -7px;
+  margin-top: -5px;
   line-height: 1;
 }
 @media only screen and (max-width: 800px) {
@@ -140,7 +140,7 @@ nav ul a {
   height: 4px;
   margin-bottom: 6px;
   border-radius: 1000px;
-  background: #8f8f8f;
+  background: #c6a347;
   display: block;
 }
 
@@ -767,4 +767,61 @@ figcaption {
 
 .pos-footer {
   text-align: center;
+}
+
+/* Fabio Merli */
+
+.fabio-merli {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  flex-flow: row nowrap;
+  position: relative;
+}
+
+.fabio-bio {
+  color: #fff;
+  font-family: "Cinzel";
+  width: 90%;
+  margin: 8rem auto auto 5rem;
+  line-height: 1.7rem;
+}
+
+.bio-text {
+  font-family: "Montserrat";
+  margin-top: 2rem;
+  width: 50%;
+  animation: moveInBottom 2s ease-out;
+  transition: all;
+  font-size: 1rem;
+}
+
+.bio-photo {
+  width: 32%;
+  position: absolute;
+  top: 5rem;
+  right: 10rem;
+  animation: fadeIn 4s ease-out;
+  transition: all;
+}
+
+.br {
+  display: block;
+  content: "";
+  margin-top: 1.5rem;
+}
+
+.main_h-1 {
+  opacity: 1;
+  top: 0;
+}
+.test1 {
+  margin-top: -35px;
+}
+
+.bio-tittle {
+  color: #c6a347;
+  animation: moveInBottom 2s ease-out;
+  transition: all;
 }
