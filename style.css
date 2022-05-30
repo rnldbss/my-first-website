@@ -296,6 +296,13 @@ nav ul a {
   width: 50%;
 }
 
+@media screen and (max-width: 800px) {
+  .about-us-text-box {
+    position: absolute;
+    top: 80%;
+  }
+}
+
 .about-us-tittle {
   margin-bottom: 1.5rem;
   font-size: 3rem;
@@ -511,7 +518,7 @@ figcaption {
 .pricing-card {
   width: 250px;
   height: 350px;
-  margin: 0 2rem 1rem 2rem;
+  margin: 0 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -597,7 +604,7 @@ figcaption {
 .information-card {
   width: 250px;
   height: 165px;
-  margin: 0 2rem 1rem 2rem;
+  margin: 0 1rem 1rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -631,7 +638,7 @@ figcaption {
   text-align: center;
   letter-spacing: 1.5rem;
   color: #c6a347;
-  padding-top: 1.5rem;
+  margin: 1.5rem auto;
   border-top: 0.1rem solid #c6a347;
 }
 
@@ -688,7 +695,7 @@ figcaption {
   display: flex;
   flex-flow: column wrap;
   align-self: center;
-  margin-right: 1.5rem;
+  margin: 0 1.5rem 0 1.5rem;
 }
 
 .whatsapp-btn {
@@ -703,6 +710,7 @@ figcaption {
   font-size: 1.5rem;
   padding: 1rem 1rem;
   border-radius: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .whatsapp-btn:link,
@@ -728,24 +736,31 @@ figcaption {
   width: 41%;
   display: flex;
   flex-flow: row nowrap;
-  margin: 0 1rem 0 1rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .adress-footer {
+    flex-flow: column wrap;
+  }
 }
 
 .logo-footer {
   align-self: center;
-  margin-right: 2rem;
+  margin-right: 0rem;
+  display: flex;
 }
 
 .adress-text {
   align-self: center;
   font-size: 1rem;
+  display: flex;
 }
 
 .mapouter {
   display: flex;
   flex-flow: row wrap;
   align-self: center;
-  margin-left: 1rem;
 }
 
 .pos-footer {
