@@ -330,7 +330,7 @@ nav ul a {
 
 /* GALLERY */
 .gallery {
-  height: 100vh;
+  height: 70rem;
 }
 
 .gallery-tittle-box {
@@ -515,7 +515,6 @@ figcaption {
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 2rem;
-  margin-top: 8%;
 }
 
 .last-container {
