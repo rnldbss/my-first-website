@@ -765,10 +765,6 @@ figcaption {
   margin: 1.5rem;
 }
 
-.pos-footer {
-  text-align: center;
-}
-
 /* Fabio Merli */
 
 .fabio-merli {
@@ -783,6 +779,7 @@ figcaption {
 @media screen and (max-width: 800px) {
   .fabio-merli {
     height: 82rem;
+    width: 100vw;
   }
 }
 
@@ -830,7 +827,7 @@ figcaption {
 
 @media screen and (max-width: 800px) {
   .bio-photo {
-    width: 110vw;
+    width: 100vw;
     display: block;
     position: absolute;
     top: 0;
